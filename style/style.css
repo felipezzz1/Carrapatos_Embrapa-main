@@ -1,0 +1,136 @@
+body{
+    font-size: 1em;
+    font-family:'Trebuchet MS',
+    'Arial', 'Helvetica', 'Sans-serif';
+    background: #e2e2e2;
+}
+/*
+layout da pagina
+*/
+
+#area-cabecalho{
+    background-image: url(../img/carrapatohome.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+    height: 400px;
+    font-size: 26px;
+}
+
+#area-titulo, #area-menu{
+    padding: 10px;
+}
+
+.area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    text-align: justify;
+}
+
+#area-rodape{
+    clear: both;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    margin-left: -70px;
+}
+
+.imagens-rodape{
+    padding: 10px;
+}
+
+/*
+formatacao menu
+*/
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: green;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    color: black;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+/*
+formatacoes gerais
+*/
+
+h1{
+    color: #000000;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: black;
+    background: white;
+    padding: 5px;
+}
+
+.verde{
+    color : green
+}
+
+.branco{
+    color: white;
+}
+
+.option{
+    text-align: auto;
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    height: auto;
+    width: 30em;
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+
+figcaption {
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.links{
+    width: 200em;
+    text-align: left !important;
+}
+
+.escolha{
+    margin-left: 6em;
+    display: block;
+    border-radius: 5%;
+    height: 5em;
+    width: 10em;
+    color: white;
+    background-color: rgb(20, 20, 146);
+}
